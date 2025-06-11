@@ -1,0 +1,99 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.lock.json
+project.lock.json
+.vs/
+.vscode/
+# Application specific
+src/scripts/test-results/
+src/backend/nmf2wav.api/OutputFiles/
+# Audio files
+*.wav
+*.nmfea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Rider files
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Angular / Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.angular/
+dist/
+coverage/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+typings/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+._*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+src/scripts/test-results/
+src/backend/nmf2wav.api/OutputFiles/
